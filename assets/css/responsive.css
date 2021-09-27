@@ -1,0 +1,383 @@
+@media (max-width: 1440px){
+    header{
+        padding: 0 75px;
+    }    
+    .container {       
+        padding-right: 75px;
+        padding-left: 75px;
+    }
+   
+    
+}
+@media (max-width: 1365px){
+    #owl-demo .item img{
+        height: auto;
+    }
+    header{
+        padding: 0 55px;
+    }    
+    .container {       
+        padding-right: 55px;
+        padding-left: 55px;
+    }
+    .bannerInner {
+        padding: 240px 0 120px;
+    }
+    .bannerInner h3 {        
+        font-size: 45px;      
+        margin: 0 0 30px;
+    }
+    .bannerInner p {        
+        font-size: 20px;
+        line-height: 36px;       
+        max-width: 436px;
+        margin: 0 0 30px;
+    }
+    .common .title h3 {       
+        font-size: 40px;
+        line-height: 60px;
+        margin: 0 0 10px;
+    }
+    .common .title p {        
+        font-size: 20px;
+    }    
+    .footerBottom ul {        
+        max-width: 905px;
+    }
+    .footerBottomRow {     
+        flex-direction: column-reverse;
+    }
+    .footerBottom ul {       
+        max-width: 100%;
+    }
+    .footerBottomRow .left {
+        flex: 1;
+        width: 100%;
+    }
+    .footerBottom p {        
+        text-align: center;
+    }
+}
+@media (max-width: 1279px){
+    header{
+        padding: 0 45px;
+    }    
+    .container {       
+        padding-right: 45px;
+        padding-left: 45px;
+    }
+    .testimonialsSection {       
+        background-position: -10px top;
+    }   
+    
+    .bannerInner a {      
+        max-width: 190px;
+        height: 48px;       
+        padding: 5px 5px;
+    }
+    .common .title h3 {
+        font-size: 30px;
+        line-height: 45px;
+        margin: 0 0 5px;
+    }
+    .common .title p {
+        font-size: 18px;
+    }
+    .bannerImg {       
+        width: 100%;
+        max-width: 800px;
+    }
+    .bannerImg img{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 1050px){
+    header{
+        padding: 0 20px;
+    }    
+    .container {       
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .headerBlock ul li a {        
+        padding: 30px 20px;
+        font-size: 15px;
+    }    
+    .headerBlock {    
+        height: 80px;
+    }
+    .bannerImg {      
+        max-width: 700px;
+    }
+    .bannerInner {       
+        min-height: 580px;
+    }
+    .bannerInner {
+        padding: 200px 0 120px;
+    }
+    .banner {        
+        background-position: 20px 100px, calc(100% - 50px) 120px, 20px calc(100% - 10px), calc(100% - 20px) calc(100% - 100px);
+    }
+}
+@media (max-width: 991px){
+    
+    .common .title h3 {
+        font-size: 22px;
+        line-height: 30px;      
+    }    
+    .bannerInner {
+        padding: 130px 0 40px;
+    }
+    .bannerInner p {
+        font-size: 16px;
+        line-height: 28px;
+        max-width: 344px;
+    }    
+    .bannerImg {
+        max-width: 500px;
+    }
+    .bannerInner {
+        min-height: 340px;
+    }
+    .featuresCol {
+        width: 50%;
+        padding: 10px 5px;
+    }
+    .featuresRow {
+        margin: 0 -5px;
+    }
+    .customRow{
+        flex-direction: column-reverse;
+    }
+    .customRow .left {
+        width: 100%;
+        padding: 20px 0;        
+    }
+    .customRow .right{
+      margin: 20px 0;
+      width: 100%;
+    }
+    .custom_counter_row .counter_col_4 {
+        width: 33.333%;       
+        padding: 10px 5px;
+    }
+    .custom_counter_row {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .banner {
+        background-position: 20px 20px, calc(100% - 10px) 20px, 20px calc(100% - 10px), calc(100% - 20px) calc(100% - 100px);
+        background-size: 80px auto;
+    }
+    .bannerInner {
+        padding: 100px 0 30px;
+    }
+    .bannerInner h3 {
+        margin: 0 0 0px;
+        font-size: 30px;
+        line-height: 40px;
+        line-height: normal;
+    }
+}
+@media (max-width: 900px){
+    .footerBottomRow{
+        flex-wrap: wrap;
+    }
+    .footerBottomRow .left{       
+        text-align: left;
+    }       
+}
+@media (max-width: 850px){
+    .logo {
+        width: 140px;        
+    }
+    .logo img{
+        width: 100%;
+    }
+    header{
+        padding: 0 16px;
+        position: sticky;
+    }      
+    .container {       
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .mobileBtn{
+        display: block;
+        position: absolute;
+        background-color: transparent;
+        padding: 0;
+        border: none;
+        position: absolute;
+        left:  15px;
+        top: 25px;
+    }
+    .mobileBtnClose{
+        display: none;
+    }
+    .headerBlock{
+        padding-left: 30px;
+        height: 74px;
+    }
+    .headerBlock ul{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        flex-wrap: wrap;
+        background: #080808;
+        top: 74px;
+        z-index: 99;
+        padding: 1.0625rem 0;
+        left: -100%;
+        -webkit-transition: .2s ease-out;
+        -moz-transition: .2s ease-out;
+        transition: .2s ease-out;
+        display: block;       
+    }
+    .headerBlock ul.show{
+        left: 0;
+    }
+    .headerBlock ul li a {        
+        color: #fff;
+        font-weight: 500;
+        font-size: 24px;
+    }
+    .headerBlock ul li {
+        margin-bottom: 20px;
+    }
+    .headerBlock ul li a.active::after{
+        display: none;
+    }
+    .headerBlock .signupBtn {       
+        height: 42px;
+    }    
+    .footerBottom ul {      
+        align-items: center;
+    }    
+    .footerBottomRow {        
+        flex-direction: row-reverse;
+    }
+}
+
+@media (max-width: 767px){
+    .headerBlock ul {      
+        top: 50px;
+    }
+    .headerBlock {       
+        height: 50px;
+    }
+    .mobileBtn {
+        top: 12px;
+    }
+    .headerBlock .signupBtn {
+        height: 35px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .footerRow{
+        display: block;
+        padding: 15px;
+    } 
+    .footerRow .col{ 
+        padding: 0;
+    } 
+           
+    .footerRow .col h3 {       
+        font-size: 22px;
+        margin: 0 0 26px;
+    }
+    .footerBottomRow {        
+        justify-content: center;        
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .footerBottomRow .left{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+        flex: 100%;
+    }
+    .common .title p {
+        font-size: 16px;
+    }
+    .custom_counter_row .counter_col_4 {
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .custom_counter_row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .accordion .card{
+        display: initial;
+    }
+}
+
+@media (max-width: 480px){  
+    .logo {
+        width: 100px;       
+    }
+    .logo img{
+        width: 100%;
+    }    
+    .bannerInner a {
+        max-width: 170px;
+        height: 38px;
+        padding: 5px 5px;
+        margin: auto;
+    }
+    .bannerImg {
+        max-width: 250px;
+        right: initial;
+        left: 50%;
+        transform: translate(-66%, 0px);
+        bottom: 69px;
+    }
+    .bannerInner {
+        padding: 30px 0 30px;
+    }
+    .banner {
+        background-position: 20px 20px, calc(100% - 10px) 20px, 10px calc(100% - 0px), calc(100% - 20px) calc(100% - 100px);
+        background-size: 40px auto, 40px auto, 100px auto, 100px auto;
+    }
+    .featuresCol {
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .featuresRow {
+        margin: 0 0px;
+    }
+    .customRow .left h3 {
+        font-size: 32px;
+    }
+    .customRow .left h4 {
+        font-size: 22px;
+    }
+    .customRow .left h6 {
+        font-size: 28px;        
+        line-height: 38px;
+    }
+    .customSection {
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 425px){           
+    .headerBlock .signupBtn{
+        max-width: 122px;
+    }
+    
+}
+
+@media (max-width: 767px){
+    .faqUl li{
+        flex: auto;
+    }
+    .textSlider h3{
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
